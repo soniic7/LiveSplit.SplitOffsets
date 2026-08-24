@@ -1,0 +1,15 @@
+# Build output folders
+bin/
+obj/
+
+# Visual Studio & VS Code local settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS temporary files
+.DS_Store
+Thumbs.db

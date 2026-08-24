@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <LsSrcPath Condition="'$(LsSrcPath)' == ''">$(MSBuildThisFileDirectory)..\LiveSplit</LsSrcPath>
+  </PropertyGroup>
+</Project>
