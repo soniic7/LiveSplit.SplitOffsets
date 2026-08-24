@@ -49,8 +49,9 @@ Options:
 
 
 
-
-
 ## How to install
-
+1. Navigate to releases
+2. Download LiveSplit.SplitOffsets.dll from the latest release
+3. Navigate to the Components folder inside your LiveSplit installation directory
+4. Place LiveSplit.SplitOffsets.dll in the Components folder
 
