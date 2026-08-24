@@ -15,16 +15,18 @@ This component adds a specified IGT offset to the timer at the beginning of the 
 ## How to use
 1. Install the component
 2. Add the component to your LiveSplit layout (Control -> Split Offsets)
-3. Add an offset tag to the desired splits. Tag examples are shown below.
+3. Add an offset tag to the desired splits' names. Tag examples are shown below.
 
 ## Tag syntax examples
+
+Below are some examples of offset tags. These are placed within the name of the split. If the tag is formatted incorrectly, the offset will not be added to the timer.
 
 [45.0] Split name here \
 [4.312] Test \
 [10:03:41.111] Hours included \
 [4:31] Minutes seconds \
-[15:11.1] One decimal place \
-[0:11.22] Two decimal places \
+One decimal place [15:11.1] \
+Two decimal [0:11.22] places \
 [131.34] Total seconds 
 
 
