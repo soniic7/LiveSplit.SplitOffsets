@@ -10,7 +10,7 @@ To enable IGT:
 
 
 ## About
-This component adds a specified IGT offset to the timer at the beginning of the split.  The offset is specified in a tag within the split's name. This was design with LEGO Indiana Jones: The Original Adventures in mind in order to add cutscene offsets to nocut practice splits automatically.
+This component adds a specified IGT offset to the timer at the beginning of the split.  The offset is specified in a tag within the split's name. This was designed with LEGO Indiana Jones: The Original Adventures in mind in order to add cutscene offsets to nocut practice splits automatically.
 
 ## How to use
 1. Install the component
