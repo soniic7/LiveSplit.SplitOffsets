@@ -93,7 +93,7 @@ namespace LiveSplit.SplitOffsets
 
             if (difference != TimeSpan.Zero)
             {
-                TimeSpan currentGameTime = _state.CurrentTime.GameTime ?? TimeSpan.Zero;
+                TimeSpan currentGameTime = _state.CurrentTime.GameTime ?? _state.Run.Offset;
                 _state.SetGameTime(currentGameTime + difference);
                 _injectedOffset = targetOffset; 
             }
