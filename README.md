@@ -12,6 +12,10 @@ To enable IGT:
 ## About
 This component adds a specified IGT offset to the timer at the beginning of the split.  The offset is specified in a tag within the split's name. This was designed with LEGO Indiana Jones: The Original Adventures in mind in order to add cutscene offsets to nocut practice splits automatically.
 
+## Demo
+
+[SplitOffsets LiveSplit component demo](https://www.youtube.com/watch?v=c9kaykVexeU)
+
 ## How to use
 1. Install the component
 2. Add the component to your LiveSplit layout (Control -> Split Offsets)
@@ -49,11 +53,10 @@ Options:
 
 
 
-
-
 ## How to install
 1. Navigate to releases
 2. Download LiveSplit.SplitOffsets.dll from the latest release
 3. Navigate to the Components folder inside your LiveSplit installation directory
 4. Place LiveSplit.SplitOffsets.dll in the Components folder
+
 
