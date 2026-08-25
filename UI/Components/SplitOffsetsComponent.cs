@@ -64,21 +64,7 @@ namespace LiveSplit.SplitOffsets
             SyncGameTime();
         }
 
-        private void State_OnSplit(object sender, EventArgs e)
-        {
-            SyncGameTime();
-
-            // Patch: Ensure the split time recorded by LiveSplit includes the new GameTime offset
-            int completedIndex = _state.CurrentSplitIndex - 1;
-            if (completedIndex >= 0 && completedIndex < _state.Run.Count)
-            {
-                var split = _state.Run[completedIndex];
-                if (split.SplitTime.GameTime.HasValue)
-                {
-                    split.SplitTime = new Time(split.SplitTime.RealTime, _state.CurrentTime.GameTime);
-                }
-            }
-        }
+        private void State_OnSplit(object sender, EventArgs e) => SyncGameTime();
 
         private void State_OnUndoSplit(object sender, EventArgs e) => SyncGameTime();
         private void State_OnSkipSplit(object sender, EventArgs e) => SyncGameTime();
